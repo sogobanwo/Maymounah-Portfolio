@@ -10,7 +10,7 @@
   text-align: center;
 }
 #big-text > h1{
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: var(--color-b);
 }
 #text-wrapper{
@@ -45,21 +45,25 @@
   font-size: 1.7rem;
   color: var(--color-b);
 }
+
 .tech-stack-header{
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 3rem 0;
 }
+
 .tech-stack-header{
   transform: translateX(-200rem);
   animation: side 1s forwards .5s ease-in-out;
 }
+
 @keyframes side{
   to{
     transform: translatex(0);
   }  
 }
+
 .tech-stack-header > h1 {
   font-size: 4rem;
   color: var(--color-b);

@@ -7,7 +7,7 @@ import setter from "../PortfolioImages/SetterAppPics.png"
 
 const ProjectsSection = () => {
   return (
-    <section id="projects">
+    <section id="Projects">
       <div className="above-cards">
         <h1>Projects</h1>
         <p>Some of the projects i have worked on.</p>
@@ -99,74 +99,6 @@ const ProjectsSection = () => {
               target="_blank"
             >
               <FaGlobe size="25px" />
-            </a>
-          </div>
-        </div>
-        <div className="each-card-wrapper">
-          <div className="each-card">
-            <img
-              src={setter}
-              width="120px"
-              height="120px"
-              alt="Sogo"
-            />
-            <h1>FYYUR</h1>
-            <p>
-            A social media management application which enables users to make
-              post on different their various social media account from one
-              platform.
-            </p>
-            <p>Tech Stack: HTML, CSS, Python & JavaScript</p>
-            <a
-              rel="noreferrer"
-              href="https://github.com/sogobanwo/fyurr"
-              target="_blank"
-            >
-              <FaGithub size="25px" />
-            </a>
-          </div>
-          <div className="each-card">
-            <img
-              src={setter}
-              width="120px"
-              height="120px"
-              alt="Sogo"
-            />
-            <h1>TRIVIA APP</h1>
-            <p>
-            A social media management application which enables users to make
-              post on different their various social media account from one
-              platform.
-            </p>
-            <p>Tech Stack: ReactJS, CSS & Python</p>
-            <a
-              rel="noreferrer"
-              href="https://github.com/sogobanwo/TriviaApi"
-              target="_blank"
-            >
-              <FaGithub size="25px" />
-            </a>
-          </div>
-          <div className="each-card">
-            <img
-              src={setter}
-              width="120px"
-              height="120px"
-              alt="Kontrako"
-            />
-            <h1>COFFEE SHOP</h1>
-            <p>
-            A social media management application which enables users to make
-              post on different their various social media account from one
-              platform.
-            </p>
-            <p>Tech Stack: CSS, JavaScript, Python</p>
-            <a
-              rel="noreferrer"
-              href="https://github.com/sogobanwo/Coffee-Shop"
-              target="_blank"
-            >
-              <FaGithub size="25px" />
             </a>
           </div>
         </div>

@@ -1,10 +1,10 @@
-import './App.css';
-import { Header } from './Components/Header';
-import Footer from './Components/Footer';
-import AboutSection from './Components/AboutSection';
-import HomeSection from './Components/HomeSection';
-import ContactSection from './Components/ContactSection';
-import ProjectsSection from './Components/ProjectsSection';
+import "./App.css";
+import { Header } from "./Components/Header";
+import Footer from "./Components/Footer";
+import AboutSection from "./Components/AboutSection";
+import HomeSection from "./Components/HomeSection";
+import ContactSection from "./Components/ContactSection";
+import ProjectsSection from "./Components/ProjectsSection";
 
 function App() {
   return (
@@ -14,7 +14,6 @@ function App() {
       <AboutSection />
       <ProjectsSection />
       <ContactSection />
-
       <Footer />
     </>
   );

@@ -14,7 +14,7 @@ const ContactSection = () => {
     )
   }
   return (
-    <section className="work-with-me" id="contact">
+    <section className="work-with-me" id="Contact">
       <div className="work-with-me-header">
         <h2>WORK WITH ME</h2>
       </div>
