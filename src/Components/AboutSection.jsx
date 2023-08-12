@@ -86,7 +86,7 @@ const AboutSection = () => {
       </section>
       <div className="mid-line" />
       <h1 id="sogo">Certifications & Awards</h1>
-      <section>
+      
         <div className="grid-wrapper">
           <div>
             <img className="img-1" src={Honor} alt="" />
@@ -98,7 +98,7 @@ const AboutSection = () => {
             <img src={cop} alt="" />
           </div>
         </div>
-      </section>
+    
 
       {/* demacation of the sections */}
       <div id="middle_line" />

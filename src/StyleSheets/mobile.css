@@ -58,9 +58,13 @@
     }
   
     .grid-wrapper{
-      gap: 7rem !important;
-      margin:0 3rem 2rem !important;
+      display: flex;
+      flex-wrap: wrap;
     }
+    .grid-wrapper > div{
+      width: 90%;
+    }
+    
     /* footer */
     #footer_bottom{
       display: flex;
