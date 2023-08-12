@@ -25,7 +25,7 @@ const HomeSection = () => {
             <div id="big-text">
               <h1>Welcome to my little coven.</h1>
               <h1>
-                I build GRAPH and RESTFUL Apis for web and mobile applications.
+                I build REST and RESTFUL Apis for web and mobile applications.
               </h1>
             </div>
           </div>

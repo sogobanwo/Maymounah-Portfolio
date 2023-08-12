@@ -51,7 +51,7 @@ const AboutSection = () => {
             </div>
             <div className="work-experience-bottom">
               <p>AYA</p>
-              <p>January, 2023 - March, 2023</p>
+              <p>January - March, 2023</p>
             </div>
             <div className="mid-line" />
           </div>

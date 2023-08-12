@@ -1,9 +1,10 @@
 import React from "react";
-import { FaGithub, FaGlobe } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 import "../StyleSheets/ProjectsSection.css";
 import "../StyleSheets/mobile.css";
-import setter from "../PortfolioImages/SetterAppPics.png"
-
+import setter from "../PortfolioImages/SetterAppPics.png";
+import aya from "../PortfolioImages/aya.PNG";
+import nerve from "../PortfolioImages/Nerve.webp";
 
 const ProjectsSection = () => {
   return (
@@ -15,26 +16,14 @@ const ProjectsSection = () => {
       <div className="card">
         <div className="each-card-wrapper">
           <div className="each-card">
-            <img
-              src={setter}
-              width="120px"
-              height="120px"
-              alt="Sogo"
-            />
+            <img src={setter} width="120px" height="120px" alt="Sogo" />
             <h1>SETTERAPP</h1>
             <p>
               A social media management application which enables users to make
               post on different their various social media account from one
               platform.
             </p>
-            <p>Tech Stack: ReactJs & CSS</p>
-            <a
-              rel="noreferrer"
-              href="https://github.com/sogobanwo/SetterApp"
-              target="_blank"
-            >
-              <FaGithub size="25px" />
-            </a>
+            <p>Tech Stack: NodeJs, ExpressJs, MySQL</p>
             <a
               rel="noreferrer"
               href="https://setterapp.vercel.app/"
@@ -44,68 +33,37 @@ const ProjectsSection = () => {
             </a>
           </div>
           <div className="each-card">
-            <img
-              src={setter}
-              width="120px"
-              height="120px"
-              alt="Sogo"
-            />
-            <h1>TASK MANAGER</h1>
+            <img src={nerve} width="120px" height="120px" alt="Sogo" />
+            <h1>Nerve</h1>
             <p>
-            A social media management application which enables users to make
-              post on different their various social media account from one
-              platform.
+              A seamless platform that connects hospitals to vendors for easy
+              purchase of daily consumables and duty equipments.
             </p>
-            <p>Tech Stack: ReactJS & CSS</p>
+            <p>Tech Stack: Php, MySQL, docker, redbean </p>
             <a
               rel="noreferrer"
-              href="https://github.com/sogobanwo/Task-Management-App"
-              target="_blank"
-            >
-              <FaGithub size="25px" />
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://banwo-task-manager.netlify.app/"
+              href="https://play.google.com/store/apps/details?id=com.lifebankdevs.nerve"
               target="_blank"
             >
               <FaGlobe size="25px" />
             </a>
           </div>
           <div className="each-card">
-            <img
-              src={setter}
-              width="120px"
-              height="120px"
-              alt="Sogo"
-            />
-            <h1>PROJECT BLOOMART</h1>
+            <img src={aya} width="120px" height="120px" alt="Sogo" />
+            <h1>Ayalabs</h1>
             <p>
-            A social media management application which enables users to make
-              post on different their various social media account from one
-              platform.
+              A platform that connects you to a community of skilled developers,
+              innovators and entrepreneurs to propel your growth.
             </p>
-            <p>Tech Stack: HTML,CSS & JavaScript</p>
-            <a
-              rel="noreferrer"
-              href="https://github.com/sogobanwo/PROJECT-BLOOMART"
-              target="_blank"
-            >
-              <FaGithub size="25px" />
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://bloomartproject.netlify.app/"
-              target="_blank"
-            >
+            <p>Tech Stack: Node.js, express.js, MySQL.</p>
+            <a rel="noreferrer" href="https://www.ayalab.xyz/" target="_blank">
               <FaGlobe size="25px" />
             </a>
           </div>
         </div>
       </div>
-      
     </section>
   );
 };
 
-export default ProjectsSection
+export default ProjectsSection;

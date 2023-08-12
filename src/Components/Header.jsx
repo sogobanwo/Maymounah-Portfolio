@@ -8,7 +8,7 @@ export const Header = () =>{
     <header>
   <div className="header-2">
     <div>
-      <h1 className="my_logo">M.Memunat</h1>
+      <h1 className="my_logo">Mogaji Memunat</h1>
     </div>
     <div id="navbar">
       <div id="header_link">
